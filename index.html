@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <!-- boostrap cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font awesome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+
+        body{
+            background: rgba(70, 70, 87, 0.8);
+            
+        }
+        .container{
+            margin: 80px auto;
+            box-shadow: 5px 25px 10px 50px rgb(106, 163, 219); ;
+            
+        }
+        h2{
+            color: orangered;
+        }
+        .left{
+            background-color: rgb(74, 103, 133);
+            color: white;
+            padding: 15px;
+            font-weight: 700;
+            
+        }
+        
+        .right{
+            background-color: rgba(255, 230, 0, 0.918);
+            padding: 10px;
+            
+
+        }
+       
+       .connect i{
+            font-size: 30px;
+            color: white;
+            background-color: orangered;
+            padding: 3px;
+            border-radius: 3px;
+        }
+        .connect p{
+            margin-bottom: 0;
+        }
+        .connect{
+            margin-top: 50px;
+        }
+        .creater{
+            margin-left: 30px;
+            margin-right: 5px;
+            padding: 10px;
+        }
+        .formheading{
+            color: white;
+        }
+        input{
+            border-radius: 100px !important;
+            padding: 10px !important;
+            border: 2px solid white !important;
+            background-color: rgba(255, 230, 0, 0.918) !important;
+           
+            
+         
+        }
+        .address p {
+            margin-bottom: 0;
+        }
+        .address{
+            margin-top: 30px;
+        }
+        textarea{
+            border-radius: 30px !important;
+            background-color: rgba(255, 230, 0, 0.918) !important;
+            border: 2px solid white !important;
+        }
+        button{
+            border-radius: 15px !important;
+            margin-top: 30px;
+            background-color: white !important;
+           color: rgba(255, 230, 0, 0.918) !important;
+           border: 2px solid white !important;
+        }
+        .created-by{
+            position: absolute;
+            bottom: 0;
+            top: 525px;
+            left: 80%;
+            color: white;
+            font-weight: 700;
+            font-size: 1.3rem;
+        }
+       
+    </style>
+</head>
+<body>
+
+    <div class="container"style="border:3px solid orangered">
+        <div class="row">
+            <div class="col-6 left">
+                <h2>Lets get in touch</h2>
+                <div>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque perferendis commodi illo cupiditate delectus ipsa magni! Iste qui commodi natus?
+                </div>
+                <div class="address">
+                    <p>92 colony drive underground</p>
+                    <p>lorem@ipsum.com</p>
+                    <p>123-450-187</p>
+                </div>
+
+                <div class="connect">
+                    <p>Connect with us:</p>
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-square-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+                <p class="creater">made with <i class="fa-solid fa-heart"></i>  by learning Robbo</p>
+            </div>
+
+            <div class="col-6 right">
+                <h2 class="formheading">Contact us</h2>
+                <form>
+                    <div class="mb-3">
+                     
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"placeholder="Email">
+                      
+                    </div>
+                    <div class="mb-3">
+                      
+                      <input type="password" class="form-control" id="exampleInputPassword1"placeholder="password">
+                    </div>
+
+                    <div class="mb-3">
+                      
+                        <input type="text" class="form-control" placeholder="address">
+                      </div>
+
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                        <label for="floatingTextarea2">Comments</label>
+                      </div>
+
+                      
+                    
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+            </div>
+            <p class="created-by">Learning Robbo</p>
+        </div>
+       
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
